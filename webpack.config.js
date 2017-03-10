@@ -6,7 +6,7 @@ module.exports = {
     host: 'localhost',
     port: 8081
   },
-  entry: './src/Main.jsx',
+  entry: './src/react-redux/Main.jsx',
   output: {
     filename: './bundle.js',
     path: path.resolve(__dirname, 'build')
