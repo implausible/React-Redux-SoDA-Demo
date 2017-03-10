@@ -4,7 +4,7 @@ const path = require('path');
 module.exports = {
   devServer: {
     host: 'localhost',
-    port: 8081
+    port: 8080
   },
   entry: './src/react-redux/Main.jsx',
   output: {
