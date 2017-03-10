@@ -1,11 +1,11 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
-import * as Constants from '../Constants';
+import * as Constants from './Constants';
 
-import ComponentDemo from '../presentation/ComponentDemo';
-import PropsDemo from '../presentation/PropsDemo';
-import StateDemo from '../presentation/StateDemo';
+import ComponentDemo from './demos/ComponentDemo';
+import PropsDemo from './demos/PropsDemo';
+import StateDemo from './demos/StateDemo';
 
 const mapStateToProps = ({ view }) => ({ view });
 

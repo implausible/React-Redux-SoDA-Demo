@@ -1,4 +1,4 @@
-import React from 'React';
+import React from 'react';
 
 const Header = ({ children }) => <h1>{children}</h1>;
 

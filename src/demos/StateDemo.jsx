@@ -1,4 +1,4 @@
-import React, { Component } from 'React';
+import React, { Component } from 'react';
 
 class Timer extends Component {
   constructor(props) {

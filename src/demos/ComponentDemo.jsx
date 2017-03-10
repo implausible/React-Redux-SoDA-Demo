@@ -1,4 +1,4 @@
-import React from 'React';
+import React from 'react';
 
 const Header = () => <h1>Great News</h1>;
 
