@@ -24,7 +24,7 @@ export default connect(mapStateToProps, mapDispatchToProps)(
   ({ changeView, view }) => (
     <div className='demo'>
       <div className='nav'>
-        <div className='nav__header'>Available Demos:</div>
+        <h2 className='nav__header'>Demos</h2>
         <NavLink onClick={changeView(Constants.view.COMPONENT)}>Component</NavLink>
         <NavLink onClick={changeView(Constants.view.PROPS)}>Props</NavLink>
         <NavLink onClick={changeView(Constants.view.STATE)}>State</NavLink>

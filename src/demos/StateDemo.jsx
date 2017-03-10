@@ -24,7 +24,12 @@ class Timer extends Component {
 
   render() {
     const { time } = this.state;
-    return <div>The time: {time}</div>;
+    return (
+      <div>
+        <h1>A simple timer</h1>
+        <div>The time: {time}</div>
+      </div>
+    );
   }
 }
 
