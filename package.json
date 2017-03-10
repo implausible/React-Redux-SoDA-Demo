@@ -5,11 +5,14 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack -p --define process.env.NODE_ENV='\"production\"'",
+    "compile": "babel ",
+    "concept": "node ./scripts/runConcept",
     "start": "webpack-dev-server --debug --content-base build/"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
+    "babel-cli": "^6.23.0",
     "babel-core": "^6.9.1",
     "babel-loader": "^6.2.4",
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
