@@ -1,5 +1,14 @@
-import React from 'react';
+import React from 'React';
 
-const stub = () => <div />;
+const Header = () => <h1>Great News</h1>;
 
-export default stub;
+const Content = () => <p>React utilizes functional components</p>;
+
+const ComponentDemo = () => (
+  <div>
+    <Header />
+    <Content />
+  </div>
+);
+
+export default ComponentDemo;
